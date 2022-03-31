@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ELF">
+      <UniqueIdentifier>{74d43e2f-dc29-442f-9172-2fac128faf70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ELF">
+      <UniqueIdentifier>{9ad19fa9-5953-43ae-81e8-cf89ca13434e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ELF64">
+      <UniqueIdentifier>{e2b6e37a-83eb-4ffd-a9d8-014273cb20a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ELF64">
+      <UniqueIdentifier>{65fe4464-7ab7-4b3a-83c4-12142e3fb3b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kmods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ELF\ElfReader.cpp">
+      <Filter>Source Files\ELF</Filter>
+    </ClCompile>
+    <ClCompile Include="ELF\ElfRebuilder.cpp">
+      <Filter>Source Files\ELF</Filter>
+    </ClCompile>
+    <ClCompile Include="ELF64\fix.cpp">
+      <Filter>Source Files\ELF64</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructsSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kmods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF\elf.h">
+      <Filter>Header Files\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF\ElfReader.h">
+      <Filter>Header Files\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF\ElfRebuilder.h">
+      <Filter>Header Files\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF\exelf.h">
+      <Filter>Header Files\ELF</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF64\elf.h">
+      <Filter>Header Files\ELF64</Filter>
+    </ClInclude>
+    <ClInclude Include="ELF64\fix.h">
+      <Filter>Header Files\ELF64</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
